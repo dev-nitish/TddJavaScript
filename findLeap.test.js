@@ -8,4 +8,5 @@ test("checking Leap year", () => {
     expect(checkLeap(2008)).toBe(true);
     expect(checkLeap(1700)).toBe(false);
     expect(checkLeap(1900)).toBe(false);
+    expect(checkLeap(2000)).toBe(true);
 })
