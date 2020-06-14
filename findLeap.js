@@ -1,10 +1,10 @@
 function checkLeap(year) {
-    if(!year % 4){
-        if(!year % 100) {
-            return true;
+    if(!(year % 4)){
+        if(!(year % 100)) {
+            return false;
         }
         else {
-            return false;
+            return true;
         }
     }
     else {
