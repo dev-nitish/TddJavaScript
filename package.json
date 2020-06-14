@@ -1,0 +1,11 @@
+{
+  "name": "tddjavascript",
+  "version": "1.0.0",
+  "description": "Test Driven Development using JavaScript",
+  "main": "findLeap.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
